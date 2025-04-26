@@ -32,7 +32,7 @@ This project is a low-cost embedded system designed for indoor 3D spatial scanni
 | LED (step)    | PN1                        |
 | Button        | PJ0                        |
 
-## ▶️ How to Run
+##  How to Run
 
 1. **Set Up Hardware**
    - Connect VL53L1X to I2C pins
@@ -54,12 +54,12 @@ This project is a low-cost embedded system designed for indoor 3D spatial scanni
 ## 📸 Output Example
 The point cloud accurately captures indoor layouts such as hallways, identifying wall edges, doors, and open space.
 
-## 🧠 Applications
+## Applications
 - Indoor navigation & mapping
 - Accessibility scanning for public buildings
 - Mobile robotics & SLAM prototypes
 
-## ⚠️ Limitations
+## Limitations
 - Max range: ~4m; sensitive to surface reflectivity
 - Sensor read time (~140ms) is the primary speed bottleneck
 - Minor floating-point error due to trigonometric calculations
